@@ -1,0 +1,135 @@
+/* Background and Centering */
+.login-bg {
+  min-height: 100vh;
+  background: #101010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Styling */
+.login-card {
+  background: #18181b;
+  padding: 2.5rem 2rem 2rem 2rem;
+  border-radius: 20px;
+  width: 380px;
+  box-shadow: 0px 5px 32px 0px #0009;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-logo {
+  background: #23272f;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  font-size: 1.8rem;
+}
+
+h2 {
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+}
+
+.login-sublabel {
+  color: #87878c;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+.login-link {
+  color: #3b82f6;
+  cursor: pointer;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 17px;
+}
+
+.input-group {
+  margin-bottom: 14px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 14px;
+  background: #23272f;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.04rem;
+  outline: none;
+  overflow: none;
+  box-sizing: border-box;
+}
+
+.input-group input::placeholder {
+  color: #7a7a85;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1.04rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.login-btn:hover {
+  background: #2563eb;
+}
+
+.or-divider {
+  width: 100%;
+  text-align: center;
+  color: #5a5a5f;
+  font-size: 0.97rem;
+  margin-bottom: 20px;
+}
+
+.login-socials {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.google-btn {
+  width: 100%;
+  padding: 11px;
+  border: none;
+  border-radius: 8px;
+  background: #23272f;
+  color: #fff;
+  font-size: 1.04rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.google-btn:hover {
+  background: #1f2330;
+}
+
+.google-icon {
+  width: 22px;
+  height: 22px;
+}

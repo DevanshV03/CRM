@@ -1,0 +1,156 @@
+.landing-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+.landing-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px 70px 0 70px;
+}
+.landing-left {
+  flex: 1.2;
+  padding-right: 40px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.landing-badge {
+  background: #23234e;
+  color: #38bdf8;
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 999px;
+  font-size: 1em;
+  margin-bottom: 24px;
+  font-weight: 500;
+  letter-spacing: .03em;
+}
+.landing-left h1 {
+  font-size: 2.9em;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+.accent { color: #e0e0f9; }
+.landing-desc {
+  font-size: 1.16em;
+  color: #a3a3b0;
+  margin-bottom: 24px;
+  max-width: 450px;
+}
+.landing-btns {
+  margin-top: 12px;
+}
+.cta {
+  background: #fff;
+  color: #18182b;
+  border: none;
+  font-weight: 600;
+  padding: 11px 22px;
+  font-size: 1.12em;
+  border-radius: 8px;
+  margin-right: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.cta:hover {
+  background: #e2e2fd;
+}
+.ghost {
+  background: transparent;
+  color: #fff;
+  border: 1.5px solid #33334d;
+  font-weight: 500;
+  padding: 11px 22px;
+  font-size: 1.06em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.ghost:hover {
+  background: #24244a;
+}
+
+/* Right feature cards */
+.landing-right {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: flex-end;
+}
+.card {
+  background: #181820;
+  border-radius: 18px;
+  padding: 19px 22px 17px 22px;
+  box-shadow: 0 3px 32px #000a;
+  margin-bottom: 8px;
+  min-width: 260px;
+  color: #f9f9ff;
+  opacity: 70%;
+  -webkit-backdrop-filter: blur(20);
+}
+.graph-card {
+  min-width: 280px;
+  padding-bottom: 10px;
+}
+.card-label {
+  font-size: 1em;
+  color: #a9a9c6;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.card-big {
+  font-size: 2.3em;
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin-top: -9px;
+}
+.mini-bar {
+  display: flex;
+  gap: 8px;
+  margin-top: 7px;
+}
+.bar {
+  background: #3b82f6;
+  height: 18px;
+  border-radius: 4px;
+  opacity: 0.21;
+}
+.fake-graph {
+  margin-top: 7px;
+  text-align: center;
+}
+.graph-label {
+  color: #fff;
+  font-size: 1.06em;
+  margin-top: 2px;
+}
+.lead-card {
+  background: #151624;
+}
+.lead-time {
+  float: right;
+  color: #666685;
+  font-size: 0.87em;
+}
+.leads-main {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  gap: 8px;
+}
+.lead-num {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.lead-growth {
+  color: #34d399;
+  font-size: 1em;
+  padding-left:
+}
